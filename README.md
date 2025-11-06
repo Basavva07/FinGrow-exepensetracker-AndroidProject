@@ -5,6 +5,10 @@ Fingrow — simple Android expense tracker to track income, expenses and visuali
 [![Android Build](https://img.shields.io/badge/Android-11%2B-brightgreen)](#) 
 
 **Fingrow** — A simple, clean Android expense tracker to record income & expenses and visualize spending with charts.
+Fingrow is a simple and smart Android Expense Tracker App designed to help users manage their income, expenses, and savings in one place.
+It provides a clean and intuitive interface to record daily transactions, categorize spending, and analyze financial habits through interactive charts and summaries.
+
+With Fingrow, users can easily track where their money goes, plan budgets, and make better financial decisions — all directly from their smartphone.
 
 ---
 
@@ -39,3 +43,10 @@ fingrow/
 ```bash
 git clone https://github.com/Basavva07/fingrow.git
 cd fingrow
+2.Open the project in Android Studio (File → Open → select fingrow).
+
+3.Let Gradle sync and install required SDK components.
+
+4.Run on an emulator or connected device.
+
+🖼 Screenshots
