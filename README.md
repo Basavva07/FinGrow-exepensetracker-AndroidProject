@@ -38,15 +38,31 @@ fingrow/
 
 ---
 
-## 📥 Getting started (run locally)
+## 📥 Getting started 
 1. Clone the repo:
-```bash
-git clone https://github.com/Basavva07/fingrow.git
-cd fingrow
+git clone https://github.com/Basavva07
 2.Open the project in Android Studio (File → Open → select fingrow).
-
 3.Let Gradle sync and install required SDK components.
-
 4.Run on an emulator or connected device.
 
-🖼 Screenshots
+##🖼 Screenshots
+On uploaded as screenshot.docs
+
+##Add Dependencies on buil.gradel(app)
+dependencies {
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+…….
+}
+in settings.gradel:
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+##Download APK for see final output and use the App
+FinGrow.apk
+
